@@ -112,7 +112,7 @@ include 'infrastructure/routing.php';
                 </div>
                 <div class="address">
                     <p><i class="fa fa-map-marker"></i> Адрес</p>
-                    <h4>гр. София, жк. Обеля-2</h4>
+                    <h4>гр. София, жк. Младост 3</h4>
                 </div>
             </div>
             <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="0.6s">
