@@ -123,6 +123,11 @@ hr {
     padding: 3px 0 0 0;
 }
 
+@media (max-width:767px){
+    .navbar-brand img{width: 100%; position: relative; z-index: 1;}
+    .navbar-header .navbar-brand {max-width: 20%;}
+}
+
 .navbar-default .navbar-nav li a {
     font-size: 12px;
     letter-spacing: 1px;
@@ -131,6 +136,12 @@ hr {
 .navbar-toggle {
     margin-top: 12px;
     margin-bottom: 12px;
+}
+
+@media (max-width:767px){
+    .navbar-default .navbar-collapse .navbar-right {
+        text-align: right;
+    }
 }
 
 .username-nav-item .glyphicon-user {
@@ -207,6 +218,7 @@ label.error {
     position: absolute;
     top: 0;
     right: 15px;
+    z-index: 1;
 }
 
 .home-btn:hover,
